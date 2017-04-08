@@ -42,6 +42,8 @@
         php artisan serve
 
 9. Open `http://localhost:8000/` in your web browser.
+        user: admin@gmail.com
+        password: password
 
 ### Development
 
