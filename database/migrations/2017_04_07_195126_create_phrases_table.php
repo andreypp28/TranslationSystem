@@ -15,7 +15,7 @@ class CreatePhrasesTable extends Migration
     {
         Schema::create('phrases', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('word');
+            $table->string('word', 512);
             $table->integer('page_id')->nullable(false);
             $table->integer('language_id')->nullable(false);
             $table->string('hash')->nullable(false);

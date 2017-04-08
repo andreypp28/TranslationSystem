@@ -74,26 +74,33 @@
                 fields: [
                     {
                         name: '__checkbox',
-                        titleClass: 'text-center col-sm-1',
+                        titleClass: 'text-center th-checkbox',
                         dataClass: 'text-center',
                     },
                     {
                         title: 'Index',
                         name: '__sequence',
-                        titleClass: 'text-center col-sm-1',
+                        titleClass: 'text-center th-index',
                         dataClass: 'text-center',
                     },
                     {
                         title: 'Title',
                         name: 'title',
                         sortField: 'title',
-                        titleClass: 'text-center col-sm-3',
+                        titleClass: 'text-center',
                         dataClass: 'text-left',
+                    },
+                    {
+                        title: 'Created',
+                        name: 'created_at',
+                        sortField: 'created_at',
+                        titleClass: 'text-center th-created',
+                        dataClass: 'text-center',
                     },
                     {
                         title: 'Actions',
                         name: '__component:actions',
-                        titleClass: 'text-center col-sm-1',
+                        titleClass: 'text-center th-action',
                         dataClass: 'text-center',
                     },
                 ],
@@ -103,7 +110,7 @@
                         direction: 'asc',
                     }
                 ],
-                tableClass: 'table table-bordered table-hover',
+                tableClass: 'table table-bordered table-hover datatable',
                 ascendingIcon: 'glyphicon glyphicon-menu-up pull-right',
                 descendingIcon: 'glyphicon glyphicon-menu-down pull-right',
                 appendParams: [],

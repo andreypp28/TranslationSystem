@@ -62,3 +62,14 @@
   top: 1em !important;
   right: 1em !important;;
 }
+
+.datatable {
+    .th-checkbox { width: 50px; }
+    .th-index { width: 60px; }
+    .th-action { width: 80px; }
+    .th-priority { width: 100px; }
+    .th-created { width: 120px; }
+}
+#phrase-table td {
+    min-width: 100px;
+}
