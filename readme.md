@@ -1,5 +1,10 @@
 # Translation System (Laravel & Vue JS & Sqlite)
 
+### Install Sqlite
+Make sure you have sqlite server:
+    windows [sqlite install on windows](https://www.codeproject.com/Articles/850834/Installing-and-Using-SQLite-on-Windows)
+    ubuntu [sqlite install on ubuntu](https://iqbalnaved.wordpress.com/2014/07/10/how-to-install-sqlite-3-8-2-on-ubuntu-14-04-and-commands-for-creating-database-and-tables/)
+    
 ### Install
 
 1. Open your terminal.
@@ -15,20 +20,24 @@
 4. Install all laravel dependencies:
 
         composer install
+        
+5. Check you db connection in .env file
+    1. if you want to use sqlite, pls download empty database [here](https://github.com/andreypp28/sqlite-db.git) and copy database.sqlite to rebelwall-translation/database.
+    2. if you want to use mysql or others, pls check information in .env file
 
-5. Run migration table:
+6. Run migration table:
 
         php artisan migrate
 
-6. Run seeders:
+7. Run seeders:
 
         php artisan db:seed
 
-7. Serve the app:
+8. Serve the app:
 
         php artisan serve
 
-8. Open `http://localhost:8000/` in your web browser.
+9. Open `http://localhost:8000/` in your web browser.
 
 ### Development
 
