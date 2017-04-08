@@ -15,7 +15,7 @@
 
 2. Clone this repo:
 
-        https://github.com/andreypp28/rebelwall-translation.git
+        git clone https://github.com/andreypp28/rebelwall-translation.git
     
 3. Once finished, change directory to rebelwall-translation:
 
