@@ -1,4 +1,4 @@
-# Laravel & Vue JS CRUD Example
+# Translation System (Laravel & Vue JS & Sqlite)
 
 ### Install
 
@@ -6,57 +6,33 @@
 
 2. Clone this repo:
 
-        git clone https://github.com/herusdianto/laravel-vue-crud.git
+        https://github.com/andreypp28/rebelwall-translation.git
     
-3. Once finished, change directory to laravel-vue-crud:
+3. Once finished, change directory to rebelwall-translation:
 
-        cd laravel-vue-crud
+        cd rebelwall-translation
     
 4. Install all laravel dependencies:
 
         composer install
 
-5. Copy .env file:
-
-        cp .env.example .env
-
-6. Modify `DB_*` value in `.env` with your database config.
-
-7. Generate application key:
-
-        php artisan key:generate
-
-8. Run migration table:
+5. Run migration table:
 
         php artisan migrate
 
-9. Create a symbolic link:
+6. Run seeders:
 
-        php artisan storage:link
+        php artisan db:seed
 
-10. Serve the app:
+7. Serve the app:
 
         php artisan serve
 
-11. Open `http://localhost:8000/` in your web browser.
-
-### Dummy Data
-
-1. Open your terminal and change directory to `laravel-vue-crud`.
-
-2. Run this command:
-
-        php artisan tinker
-    
-3. Type this script:
-
-        factory(App\Student::class, 100)->create();
-    
-4. Hit `Enter`. You can create dummy data as many as you want.
+8. Open `http://localhost:8000/` in your web browser.
 
 ### Development
 
-1. Open your terminal and change directory to `laravel-vue-crud`.
+1. Open your terminal and change directory to `rebelwall-translation`.
 
 2. Make sure you have [nodejs](https://nodejs.org/en/download/) installed and run this command:
 
@@ -71,5 +47,3 @@
         gulp watch
     
 5. All files (components, etc) are located in `resources/assets`.
-    
-Check out the demo [here](https://www.youtube.com/watch?v=pRHGYFC5vnk).
