@@ -1,11 +1,13 @@
 # Translation System (Laravel & Vue JS & Sqlite)
 
-### Install Sqlite
-Make sure you have sqlite server:
+### Check things before Install 
+1. Make sure you have sqlite server:
 
     windows -> [sqlite install on windows](https://www.codeproject.com/Articles/850834/Installing-and-Using-SQLite-on-Windows)   
     
     ubuntu -> [sqlite install on ubuntu](https://iqbalnaved.wordpress.com/2014/07/10/how-to-install-sqlite-3-8-2-on-ubuntu-14-04-and-commands-for-creating-database-and-tables/)
+    
+2. Make sure your php version is greater than 5.6.4
     
 ### Install
 
